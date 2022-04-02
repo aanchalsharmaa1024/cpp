@@ -17,4 +17,7 @@ int main(){
         cout<<"Prime"<<endl;
     }
     return 0;
+
 }
+//print all prime nos. between a and b
+
