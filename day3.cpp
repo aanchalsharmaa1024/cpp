@@ -15,4 +15,5 @@ int main(){
 return 0;
 }
 
+//WAP to print nos. from 1 to 100 which are not divisible by 3
 
