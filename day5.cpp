@@ -79,3 +79,14 @@ int main(){
     cout<<i<<" "<<j<<" "<<" "<<k<<endl;
     return 0 ;
 }
+# include <iostream>
+using nmaespace std;
+int main(){
+int i=0;
+i=i++ - --i + ++i - i--;
+cout<<i<<endl;
+
+
+    return 0;
+}
+
