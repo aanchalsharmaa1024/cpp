@@ -100,6 +100,7 @@ int main(){
     cout<<m<<endl;
     return 0;
 
+
 }
 # include <iostream>
 using namespace std;
@@ -112,3 +113,5 @@ int main(){
     cout<<k<<endl;
     return 0;
     }
+//WAP t0 print that input no. is equal to , less than or more than 10
+
