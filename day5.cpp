@@ -132,3 +132,5 @@ int main(){
     }
     return 0;
 }
+//WAP  to check the no. is divisible by both 2 and 3 or divisible by only one if them
+
