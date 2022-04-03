@@ -89,4 +89,26 @@ cout<<i<<endl;
 
     return 0;
 }
+# include <iostream>
+using namespace std;
+int main(){
+    int i=1; j=2; k=3;
+    int m=i-- - j-- - k--;
+    cout<<i<<endl;
+    cout<<j<<endel;
+    cout<<k<<endl;
+    cout<<m<<endl;
+    return 0;
 
+}
+# include <iostream>
+using namespace std;
+int main(){
+    int i =10; j=20; k;
+    k=i-- - i++ + --j - ++j --i -j-- + ++i -j++;
+
+    cout<<i<<endl;
+    cout<<j<<endl;
+    cout<<k<<endl;
+    return 0;
+    }
