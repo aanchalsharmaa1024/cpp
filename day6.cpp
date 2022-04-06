@@ -50,3 +50,6 @@ int main(){
     }
     return 0;
 }
+
+//WAP to find maximum ,minimum among two nos.
+
