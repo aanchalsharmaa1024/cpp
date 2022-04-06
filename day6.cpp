@@ -35,3 +35,4 @@ int main(){
     }
     return 0;
 }
+// WAP to check if a no. is even or odd
