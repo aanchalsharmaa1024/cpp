@@ -71,3 +71,5 @@ int main(){
 
     return 0;
 }
+//WAP to check if a triangle is scalene, isosceles or equilateral
+
