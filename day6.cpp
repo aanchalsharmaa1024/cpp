@@ -90,3 +90,4 @@ int main(){
     }
     return 0;
 }
+//WAP to check if an alphabet is a vowel or a consonants
