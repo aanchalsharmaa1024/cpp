@@ -28,4 +28,23 @@ int main(){
 	cout<<"\n the sum is"<<sum<<endl;
 
 	return 0;
-//WAP to print all odd nos. til n }
+}
+//WAP to print all odd nos. til n
+#include<iostream>
+using namespace std;
+int main(){
+	int n;
+	cout<<"enter a number:";
+	cin>>n;
+
+	for (int i-1; i<=n; i++){
+		if(n%2==0){
+			continue;
+		}
+		cout<<i<<endl;
+	}
+	return 0;
+}
+
+//WAP to find whether an alphabet ia a vowel or a consonant
+
