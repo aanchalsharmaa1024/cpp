@@ -11,4 +11,5 @@ int main(){
 									}
 						return 0;
 }
+//WAP to add only positive nos.
 
