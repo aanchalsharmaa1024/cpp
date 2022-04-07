@@ -99,5 +99,7 @@ a = (1, 2, 3);
 printf("%d", a);
 return 0;
 }
+//(Priority for the values inside a brackets () assigned to any variable is
+//given from right to left)
 
 
