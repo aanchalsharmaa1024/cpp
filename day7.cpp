@@ -91,5 +91,13 @@ return 0;
 }
 
 //(Priority for the values assigned to any variable is given from left to right)
+#include<stdio.h>
+int main()
+{
+int a;
+a = (1, 2, 3);
+printf("%d", a);
+return 0;
+}
 
 
