@@ -90,3 +90,6 @@ printf("%d", a);
 return 0;
 }
 
+//(Priority for the values assigned to any variable is given from left to right)
+
+
