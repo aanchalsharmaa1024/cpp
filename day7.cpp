@@ -28,4 +28,4 @@ int main(){
 	cout<<"\n the sum is"<<sum<<endl;
 
 	return 0;
-}
+//WAP to print all odd nos. til n }
