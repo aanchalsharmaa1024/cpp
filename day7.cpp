@@ -101,5 +101,11 @@ return 0;
 }
 //(Priority for the values inside a brackets () assigned to any variable is
 //given from right to left)
-
+#include<stdio.h>
+int main()
+{
+int x = 2;
+(x & 1) ? printf("true") : printf("false");
+return 0;
+}
 
