@@ -46,5 +46,37 @@ int main(){
 	return 0;
 }
 
-//WAP to find whether an alphabet ia a vowel or a consonant
+//WAP to find whether an alphabet ia a vowel or a consonan#include<iostream>
+using namespace std;
+int main(){
+	char c;
+	cout<<"enter a alphabet:";
+	cin>>c;
+
+	switch(c)
+	{
+		
+		
+		case'a':
+		cout<<"It is a vowel"<<endl;
+		break;
+		
+		case'e':
+		cout<<"It is a vowel"<<endl;
+		break;
+		
+		case'i':
+		cout<<"It is a vowel"<<endl;
+		break;
+		
+		case'o':
+		cout<<"It is a vowel"<<endl;
+		break;
+		
+		case'u':
+		cout<<"It is a vowel"<<endl;
+		break;
+	}
+	return 0;
+}
 
