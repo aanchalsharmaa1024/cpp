@@ -40,7 +40,20 @@ int main(){
     return 0;
 }
 //break and continue statement
+<<<<<<< HEAD
 //sum of two numbers
 //a+b
 //sum=a+b
+=======
+# include<iostream>
+using namespace std;
+int main(){
+int a,b;
+cin>>a>>b;
+int sum;
+sum=a+b;
+cout<<"sum"<<sum;
+cout<<"hello world";
+return 0;
+>>>>>>> feature
 
