@@ -2,20 +2,20 @@
 # include<iostream>
 using namespace std;
 int main(){
-    int a,b,c;
-    cin>>a>>b>>c;
-    if(a>b){
-        if(a>c){
-            cout<<a<<endl;
+    int n1,n2,n3;
+    cin>>n1>>n2>>n3;
+    if(n1>n2){
+        if(n1>n3){
+            cout<<n1<<endl;
         }else{
-            cout<<c<<endl;
+            cout<<n3<<endl;
         }
     }
     else{
-        if(b>c){
-            cout<<b<<endl;
+        if(n2>n3){
+            cout<<n2<<endl;
         }else{
-            cout<<c<<endl;
+            cout<<n3<<endl;
         }
     }
     return 0;
