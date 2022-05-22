@@ -14,7 +14,7 @@ int main(){
 
 }
 //while loop
-# include<ostream>
+# include<iostream>
 using namespace<std>
 int main(){
     int n;
@@ -39,3 +39,14 @@ int main(){
     return 0;
 }
 //break and continue statement
+# include<iostream>
+using namespace std;
+int main(){
+int a,b;
+cin>>a>>b;
+int sum;
+sum=a+b;
+cout<<"sum"<<sum;
+return 0;
+
+}
