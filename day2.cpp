@@ -47,6 +47,7 @@ cin>>a>>b;
 int sum;
 sum=a+b;
 cout<<"sum"<<sum;
+cout<<"hello world";
 return 0;
 
 }
