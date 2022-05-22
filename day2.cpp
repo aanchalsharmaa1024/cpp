@@ -10,6 +10,7 @@ int main(){
         sum=sum+counter;
     }
     cout<<sum<<endl;
+    cout<<"hello world";
     return 0;
 
 }
@@ -42,3 +43,4 @@ int main(){
 //sum of two numbers
 //a+b
 //sum=a+b
+
