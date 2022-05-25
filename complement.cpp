@@ -1,8 +1,4 @@
 #include <iostream>
-// complements
-
-//demo comments
-
 using namespace std;
 
 int main()
