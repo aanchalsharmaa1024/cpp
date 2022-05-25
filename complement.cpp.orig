@@ -1,4 +1,12 @@
 #include <iostream>
+<<<<<<< HEAD
+/// complements
+
+///demo comments
+//
+// demo comment
+=======
+>>>>>>> dev
 using namespace std;
 
 int main()
