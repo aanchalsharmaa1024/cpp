@@ -1,20 +1,8 @@
 #include <iostream>
-// complements
+/// complements
 
-//demo comments
-
-
-
-
-
-
-
-
-
-
-
+///demo comments
 //
-
 // demo comment
 using namespace std;
 
