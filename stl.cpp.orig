@@ -1,23 +1,17 @@
-
+<<<<<<< HEAD
 #include <iostream>
 #include<array>
 =======
-//deque                                                                                     
-
-
-
-
-
-
-
+//deque
 
 #include <iostream>
 #include<deque>
-
+>>>>>>> dev
 using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     
 array<int,4> a={1,2,3,4};
 int size = a.size();
@@ -34,14 +28,6 @@ cout<<a.front()<<endl;
 cout<<a.back()<<endl;
     return 0;
 }
- 
-
-
-
-
-
-
-
 
 //vectors
 #include <iostream>
@@ -60,43 +46,6 @@ int main()
     
     vector<int> last(a);
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     cout<<"print last"<<endl;
     for(int i:last){
         cout<<i<<" ";
