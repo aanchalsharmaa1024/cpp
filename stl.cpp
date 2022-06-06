@@ -12,6 +12,10 @@
 
 
 #include <iostream>
+
+
+
+
 #include<deque>
 
 using namespace std;
@@ -163,14 +167,13 @@ int main()
     
     cout<<d.size()<<endl;
     
-    d.erase(d.begin(),d.begin()+2);
+   .erase(d.begin(),d.begin()+2);
     
     cout<<d.size()<<endl;
     
     for(int i:d){
         cout<<i<<endl;
     }
->>>>>>> dev
     
 
     return 0;
@@ -193,6 +196,7 @@ int main()
 
 
 
+<<<<<<< HEAD
 
 
 #include <iostream>
@@ -240,10 +244,15 @@ int main()
 
 #include <iostream>
 #include<stack>
+=======
+#include <iostream>
+#include<queue>
+>>>>>>> dev
 
 using namespace std;
 
 int main(){
+<<<<<<< HEAD
 stack<string>s;
 s.push("aanchal");
 s.push("sharma");
@@ -255,8 +264,27 @@ cout<<s.top()<<endl;
 
 cout<<s.size()<<endl;
 cout<<s.empty()<<endl;
+=======
+queue<string>q;
+q.push("aanchal");
+q.push("sharma");
+q.push("love");
+
+cout<<q.front()<<endl;
+q.pop();
+cout<<q.front()<<endl;
+cout<<q.size();
+
+>>>>>>> dev
 
 
     return 0;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> dev
