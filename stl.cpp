@@ -1,6 +1,10 @@
 //deque
 
 #include <iostream>
+
+
+
+
 #include<deque>
 using namespace std;
 
@@ -44,4 +48,46 @@ int main()
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include<queue>
+
+using namespace std;
+
+int main(){
+queue<string>q;
+q.push("aanchal");
+q.push("sharma");
+q.push("love");
+
+cout<<q.front()<<endl;
+q.pop();
+cout<<q.front()<<endl;
+cout<<q.size();
+
+
+
+    return 0;
+}
+
+
+
+
 
