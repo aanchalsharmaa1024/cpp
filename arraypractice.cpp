@@ -1,3 +1,6 @@
+
+//find the first non-repeating element in an array
+
 // { Driver Code Starts
 #include <iostream>
 #include <bits/stdc++.h>
@@ -53,7 +56,7 @@ int main()
 }
   // } Driver Code Ends
   
-
+//subarrays with equal 1's and 0's
 // { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
@@ -100,7 +103,7 @@ int main()
 }
   // } Driver Code Ends
 
-
+//finding length of largest subarray with equal no. of 1's and 0's
 #include <iostream>
 #include<unordered_map>
 using namespace std;
