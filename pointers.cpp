@@ -18,7 +18,16 @@ cout << "firstvalue is " << firstvalue << endl;
 cout << "secondvalue is " << secondvalue << endl;
 cout << "thirdvalue is " << thirdvalue << endl;
 return 0;
-return 0;
+
 }
 
-
+#include <iostream>
+using namespace std;
+int main() {
+int i = 10;
+int * p;
+p = & i;
+cout << "Address of the variable i is " << p << endl;
+cout << "Address of the pointer p is " << & p;
+return 0;
+}
