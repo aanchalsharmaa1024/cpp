@@ -664,3 +664,44 @@ cout<<name<<endl;
     return 0;
 }
 
+
+
+//check palindrome
+#include <iostream>
+using namespace std;
+int getLength(char name[]){
+    int count=0;
+    for(int i=0; name[i]!='\0'; i++){
+        count++;
+    }
+    return count;
+}
+bool palindrome(char name[],int n){
+    int s=0;
+    int e=n-1;
+    while(s<=e){
+        if(name[s]!=name[e]){
+            return 0;
+        }
+        else{
+            s++;
+            e--;
+        }
+    }
+    return 1;
+}
+
+int main() {
+    char name[20];
+    cout<<"enter your name"<<endl;
+    cin>>name;
+    
+    cout<<"your name is: ";
+    cout<<name<<endl;
+
+    int len= getLength(name);
+    cout<<"length is:"<<len<<endl;
+    cout<<"palindrome or not "<<palindrome(name,len)<<endl;
+    return 0;
+}
+
